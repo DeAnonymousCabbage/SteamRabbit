@@ -1,0 +1,35 @@
+.title {
+    width: 275px;
+    font-family: courier;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #FF6a6a;
+    font-size: 20px;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+}
+.title:hover {
+
+    background-color: #ff8989;
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    -webkit-transition: all .25s;
+}
+.title:hover:after { 
+    content: "@homepage";
+    background-color: #8989FF;
+    padding: 10px;
+    padding-top: 5px;
+    padding-right: 1000px;
+    padding-bottom: 5px
+}
+.note {
+    background-color: #faf2ce;
+    border-radius: 2px;
+    padding: 5px;
+    line-height: 1.75em;
+    font-family: courier
+}
